@@ -79,18 +79,6 @@ h1, h2, h3, p {
  margin-right: 50px;
 }
 
-.header-mail:focus
-.header-mail:hover {
-  color: #2196F3;
-}
-
-
-
-.header-phone
-
-  
-
-
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
@@ -217,6 +205,11 @@ text-align: center;
  display: flex;
  margin-left: auto;
  margin-right: auto;
+}
+
+.hero-portfolio-list {
+  display: flex;
+  align-items: center;
 }
 
 .about-list {
@@ -385,6 +378,16 @@ background: #2F303A;
   color: #212121;
   }
 
+  .portfolio-services-list {
+    width: 370px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .portfolio-services-item {
+    flex-wrap: wrap;
+  }
+
   .portfolio-services-text {
     font-size: 16px;
     line-height: 1.88;
@@ -400,7 +403,15 @@ background: #2F303A;
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color:  #212121;
+    border-radius: 4px solid #F5F4FA;
+    background: #F5F4FA;
+    display: flex;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 22px;
+    padding-left: 22px;
+    margin-right: 8px;
   }
 
    ul, ol{
