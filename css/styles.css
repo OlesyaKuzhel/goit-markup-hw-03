@@ -379,13 +379,17 @@ background: #2F303A;
   }
 
   .portfolio-services-list {
-    width: 370px;
     display: flex;
     flex-wrap: wrap;
+    padding-left: 0;
   }
 
   .portfolio-services-item {
-    flex-wrap: wrap;
+    margin-right: 30px;
+  }
+
+  .portfolio-services-item:nth-child(3n) {
+    margin-right: 0px;
   }
 
   .portfolio-services-text {
