@@ -328,7 +328,7 @@ margin-bottom: 9px;
 background: #2F303A;
 }
 
-.footer-link{
+.footer-link {
   font-family: Raleway;
   font-style: 400;
   font-weight: 700;
@@ -370,22 +370,36 @@ background: #2F303A;
     color: #FFFFFF;
   }
 
+ 
   .portfolio-services-title{
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+  margin-top: 20px;
+  margin-bottom: 4px;
   }
 
   .portfolio-services-list {
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
+    margin-bottom: calc(1*30px);
+    margin-right: calc(1*30px);
+
   }
 
   .portfolio-services-item {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin-bottom: 30px;
     margin-right: 30px;
+    flex-basis: calc((100% - 30px) / 3);
+  }
+
+  .portfolio-services-item:last-child {
+    margin-bottom: 0px;
   }
 
   .portfolio-services-item:nth-child(3n) {
