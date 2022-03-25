@@ -366,6 +366,11 @@ background: #2F303A;
 
  /*Портфолио*/
 
+ .hero-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+ }
+
   .hero-portfolio-batton{
   font-family:var(--main-font);
   font-weight: 500;
@@ -398,6 +403,8 @@ background: #2F303A;
   padding: 0;
   justify-content: center;
   display: flex;
+  /*padding-top: 94px;
+  padding-bottom: 94px;*/
   }
 
 
@@ -414,10 +421,10 @@ background: #2F303A;
     border: 1px solid #EEEEEE;
     margin-bottom: 30px;
     margin-right: 30px;
-    flex-basis: calc((100% - 30px) / 3);
+    flex-basis: calc (100% / 3 - 30px);
   }
 
-  .portfolio-services-item:last-child {
+  .portfolio-services-list:last-child {
     margin-bottom: 0px;
   }
 
