@@ -3,7 +3,7 @@ font-family: 'Roboto', sans-serif;
 */
 
 
-/* #FFFFFF
+/*#FFFFFF
 #212121
 #FFFFFF
 #757575
@@ -13,14 +13,16 @@ font-family: 'Roboto', sans-serif;
 #F5F4FA
 #FFFFFF
 #2F303A
-#ECECEC
-*/
+#ECECEC*/
+
 
 :root {
-    /*Основные шрифты*/
     --main-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
+    --hover-cont-link: #2196F3;
 }
+
+    
 
 .container {
   width: 1200px;
@@ -76,8 +78,9 @@ h1, h2, h3, p {
 .header{
   padding-top: 24px;
   padding-bottom: 25px;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #ECECEC;
 }
+
   .contact-list {
   color: #757575;
   list-style: none;
@@ -103,6 +106,11 @@ letter-spacing: 0.02em;
 color: #212121;
 display: flex;
 align-items: center;
+}
+
+
+.current {
+  color: var(--hover-cont-link);
 }
 
 .nav-item {
@@ -207,9 +215,6 @@ text-align: center;
  margin-right: auto;
 }
 
-/*.hero-portfolio-list {
-  display: flex;
-}*/
 
 .about {
   padding-top: 94px;
@@ -371,17 +376,6 @@ background: #2F303A;
   padding-bottom: 94px;
  }
 
-  .hero-portfolio-batton{
-  font-family:var(--main-font);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  letter-spacing: 0.03em;
-  color: #212121;
-  cursor: pointer;
-  background: #F5F4FA;
-  }
-
   .hero-portfolio-batton:hover,
   .hero-portfolio-batton:focus {
     background: #2196F3;
@@ -403,10 +397,8 @@ background: #2F303A;
   padding: 0;
   justify-content: center;
   display: flex;
-  /*padding-top: 94px;
-  padding-bottom: 94px;*/
+  margin-bottom: 50px;
   }
-
 
   .portfolio-services-list {
     display: flex;
@@ -416,6 +408,7 @@ background: #2F303A;
     margin-right: calc(-1*30px);
   }
 
+
   .portfolio-services-item {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
@@ -424,8 +417,12 @@ background: #2F303A;
     flex-basis: calc (100% / 3 - 30px);
   }
 
-  .portfolio-services-list:last-child {
-    margin-bottom: 0px;
+  .name-card {
+    padding: 20px 24px;
+  }
+
+  .portfolio-services-item:nth-child(n+7) {
+  margin-bottom: 0;
   }
 
   .portfolio-services-item:nth-child(3n) {
@@ -448,8 +445,9 @@ background: #2F303A;
     text-align: center;
     letter-spacing: 0.03em;
     color:  #212121;
-    border-radius: 4px solid #F5F4FA;
+    border-radius: 4px;
     background: #F5F4FA;
+    border-color: #F5F4FA;
     display: flex;
     padding-top: 6px;
     padding-bottom: 6px;
@@ -470,3 +468,4 @@ background: #2F303A;
     display: block;
     max-width: 100%;
   }
+
