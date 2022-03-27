@@ -318,6 +318,8 @@ margin-right: 0;
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  background: #2F303A;
+  display: inline-block;
 }
 
 .footer-adress {
@@ -326,8 +328,6 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 font-style: normal;
-margin-top: 20px;
-margin-bottom: 9px;
 }
 
 .footer-list {
@@ -335,11 +335,6 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
-}
-
-
-.footer{
-background: #2F303A;
 }
 
 .footer-link {
@@ -352,6 +347,7 @@ background: #2F303A;
   color: #FFFFFF;
   margin-bottom: 20px;
   display: block;
+  margin-bottom: 20px;
   }
 
   a {
@@ -360,6 +356,7 @@ background: #2F303A;
   }
 
   .fotter-item {
+    margin-bottom: 9px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -367,8 +364,8 @@ background: #2F303A;
     color: rgba(255, 255, 255, 0.6);
   }
 
-  .footer-item:nth-last-child(2) {
-  margin-bottom: 0;
+  .footer-item:last-child {
+  margin-bottom: 0px;
   }
 
  /*Портфолио*/
