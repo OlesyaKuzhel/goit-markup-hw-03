@@ -192,6 +192,9 @@ text-align: center;
   display: flexbox;
   align-items: center;
   align-self: center;
+  background-image: url('../images/fon.jpg');
+  background-size: cover;
+
 }
 
 .hero {
